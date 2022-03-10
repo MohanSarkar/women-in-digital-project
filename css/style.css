@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text1 {
+    color: white;
+}
+
+.navo {
+    background-color: blueviolet;
+}
+.navbars {
+    background-color: rgb(0, 0, 0) !important;
+    height: 80px;
+}
+.navbars ul li a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.mainHeader {
+    background-image: url(../images/bg.png);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-style: none;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+
+}
+.ddd{
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 100px 0 80px 0;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(221, 145, 5);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 9px rgb(51, 179, 83);
+}
+.button:active {
+    box-shadow: 0 3px rgb(172, 170, 170);
+    transform: translateY(4px);
+}
+.service_color {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.tec_text {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+}
+.buyVenus {
+    background-color: blueviolet;
+}
+
+.footerC {
+    background-color: blueviolet;
+}
+
+.ty{
+    background-color: rgb(237, 240, 241);
+    height: auto;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .mission-flex {
+     flex-direction: column-reverse;
+    }
+  }
